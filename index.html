@@ -59,42 +59,44 @@
                 <div class="row">
                   <div class="col-md-4">
                     <div class="form-group">
-                      <span class="form-label">Destino</span>
+                      <span class="form-label"></span>
                       <input class="form-control" type="text" placeholder="Qual seu destino?">
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="form-group">
-                      <span class="form-label">Check-in</span>
-                      <input class="form-control" type="date" required>
+                      <span class="form-label"></span>
+                      <input class="form-control" type="text" onfocus="(this.type='date')" placeholder="Check-in" required>
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="form-group">
-                      <span class="form-label">Check-out</span>
-                      <input class="form-control" type="date" required>
+                      <span class="form-label"></span>
+                      <input class="form-control" type="text" onfocus="(this.type='date')" placeholder="Check-out" required>
                     </div>
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-md-4">
                     <div class="form-group">
-                      <span class="form-label">Adultos</span>
+                      <span class="form-label"></span>
                       <select class="form-control">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                        <option>6</option>
+                        <option value="" selected disabled>Adultos</option>
+                        <option class="op">1</option>
+                        <option class="op">2</option>
+                        <option class="op">3</option>
+                        <option class="op">4</option>
+                        <option class="op">5</option>
+                        <option class="op">6</option>
                       </select>
                       <span class="select-arrow"></span>
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="form-group">
-                      <span class="form-label">Crianças</span>
+                      <span class="form-label"></span>
                       <select class="form-control">
+                        <option value="" selected disabled>Crianças</option>
                         <option>0</option>
                         <option>1</option>
                         <option>2</option>
@@ -108,8 +110,9 @@
                   </div>
                   <div class="col-md-4">
                     <div class="form-group">
-                      <span class="form-label">Categoria</span>
+                      <span class="form-label"></span>
                       <select class="form-control">
+                        <option value="" selected disabled>Categoria</option>
                         <option>Hotel</option>
                         <option>Hostel</option>
                       </select>
@@ -120,12 +123,12 @@
             <div class="row">
               <div class="col-md-2">
                   <div class="form-btn">
-                    <button class="submit-btn">Limpar Busca</button>
+                    <button class="submit-btn" type="reset">Limpar Busca</button>
                   </div>
               </div>
             <div class="col-md-2">
               <div class="form-btn">
-                <button class="submit-btn">Procurar</button>
+                <button class="submit-btn" type="submit">Procurar</button>
               </div>
             </div>
           </div>
