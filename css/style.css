@@ -1,0 +1,410 @@
+@import url(./partials/_variables.css);
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+
+.navbar {
+  background-color: #000814;
+}
+
+.nav-color {
+  background-color: #fff;
+}
+
+.navbar .container-fluid .navbar-brand {
+  color: white;
+  font-weight: 700;
+  font-family: "Secular One", sans-serif;
+  letter-spacing: 0.3rem;
+}
+
+.navbar .container-fluid .navbar-brand::first-letter {
+  color: yellow;
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: white;
+  font-weight: 400;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #003566;
+  background-color: #ffc300;
+  font-weight: 900;
+  border-radius: 0.2rem;
+}
+
+footer {
+  background-color: #000814;
+}
+
+footer .nav .nav-item .nav-link {
+  color: white;
+  font-weight: 700;
+}
+
+footer .nav .nav-item .nav-link:hover {
+  color: #003566;
+  background-color: #ffc300;
+  font-weight: 900;
+  border-radius: 0.2rem;
+}
+
+footer p {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
+
+.container-fora {
+  background: #1e1e1e;
+  padding: 1rem 9%;
+  padding-bottom: 100px;
+  background-image: url(../img/bg-topo.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.containerDentro {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.container-fora .heading {
+  text-align: center;
+  padding-bottom: 1rem;
+  color: #ffc300;
+  font-weight: 900;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  font-size: 50px;
+}
+
+.container-fora .box-container {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  gap: 1rem;
+}
+
+.container-fora .box-container .box {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background: #fff;
+  text-align: center;
+  padding: 3rem 4rem;
+}
+
+.container-fora .box-container .box img {
+  height: 6rem;
+}
+
+.container-fora .box-container .box h3 {
+  color: #444;
+  font-size: 1.5rem;
+  padding: 0.8rem 0;
+}
+
+.container-fora .box-container .box p {
+  color: #777;
+  font-size: 0.9rem;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.container-fora .box-container .box .btn-galery {
+  margin-top: 1rem;
+  display: inline-block;
+  background: #ffc300;
+  color: #000814;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 0.6rem 1.6rem;
+}
+
+.container-fora .box-container .box .btn-galery:hover {
+  letter-spacing: 0.1rem;
+}
+
+.container-fora .box-container .box:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  transform: scale(1.03);
+}
+
+@media (max-width: 768px) {
+  .container-fora {
+    padding: 20px;
+  }
+}
+
+.btn-outline-price {
+  border: 1px solid #000814;
+}
+
+.btn-price,
+.bg-price {
+  background-color: #000814;
+  color: #fff;
+}
+
+.border-price {
+  border: 1px solid #000814;
+}
+
+.border-price {
+  border: 1px solid #000814;
+}
+
+@import url(./partials/_variables.css);
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #000814;
+}
+
+.navbar .container-fluid .navbar-brand {
+  color: white;
+  font-weight: 700;
+  font-family: "Secular One", sans-serif;
+  letter-spacing: 0.3rem;
+}
+
+.navbar .container-fluid .navbar-brand::first-letter {
+  color: yellow;
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: white;
+  font-weight: 700;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #003566;
+  background-color: #ffc300;
+  font-weight: 900;
+  border-radius: 0.2rem;
+}
+
+.white-space {
+  width: 100%;
+  height: 100vh;
+}
+
+footer {
+  background-color: #000814;
+}
+
+footer .nav .nav-item .nav-link {
+  color: white;
+  font-weight: 700;
+}
+
+footer .nav .nav-item .nav-link:hover {
+  color: #003566;
+  background-color: #ffc300;
+  font-weight: 900;
+  border-radius: 0.2rem;
+}
+
+footer p {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
+
+.section {
+  position: relative;
+  height: 100vh;
+}
+
+.section .section-center {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#booking {
+  font-family: "PT Sans", sans-serif;
+  background-image: url(../img/bg-form.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.booking-form {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  border-radius: 6px;
+}
+
+.booking-form .form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.booking-form .form-control {
+  background-color: #fff;
+  height: 50px;
+  color: #191a1e;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 40px;
+  padding: 0px 25px;
+}
+
+.booking-form .form-control::-webkit-input-placeholder {
+  color: rgba(82, 82, 84, 0.4);
+}
+
+.booking-form .form-control:-ms-input-placeholder {
+  color: rgba(82, 82, 84, 0.4);
+}
+
+.booking-form .form-control::placeholder {
+  color: rgba(82, 82, 84, 0.4);
+}
+
+.booking-form input[type="date"].form-control:invalid {
+  color: rgba(82, 82, 84, 0.4);
+}
+
+.booking-form select.form-control {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.booking-form select.form-control + .select-arrow {
+  position: absolute;
+  right: 10px;
+  bottom: 6px;
+  width: 32px;
+  line-height: 32px;
+  height: 32px;
+  text-align: center;
+  pointer-events: none;
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+}
+
+.booking-form select.form-control + .select-arrow:after {
+  content: "\279C";
+  display: block;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.booking-form .form-label {
+  display: block;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 24px;
+  height: 24px;
+  font-size: 12px;
+  color: #fff;
+}
+
+.booking-form .form-checkbox input {
+  position: absolute !important;
+  margin-left: -9999px !important;
+  visibility: hidden !important;
+}
+
+.booking-form .form-checkbox label {
+  position: relative;
+  padding-top: 4px;
+  padding-left: 30px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.booking-form .form-checkbox label + label {
+  margin-left: 15px;
+}
+
+.booking-form .form-checkbox input + span {
+  position: absolute;
+  left: 2px;
+  top: 4px;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.booking-form .form-checkbox input + span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  background-color: #f23e3e;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.booking-form .form-checkbox input:not(:checked) + span:after {
+  opacity: 0;
+}
+
+.booking-form .form-checkbox input:checked + span:after {
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+}
+
+.booking-form .form-btn {
+  margin-top: 27px;
+}
+
+.booking-form .submit-btn {
+  color: #fff;
+  background-color: #ffc300;
+  font-weight: 400;
+  height: 50px;
+  font-size: 14px;
+  border: none;
+  width: 100%;
+  border-radius: 40px;
+  text-transform: uppercase;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.booking-form .submit-btn:hover,
+.booking-form .submit-btn:focus {
+  opacity: 0.9;
+}
+
+.row {
+  justify-content: center;
+}
