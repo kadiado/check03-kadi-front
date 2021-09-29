@@ -85,7 +85,7 @@ footer p {
 
 .container-fora .heading {
   text-align: center;
-  padding: 2rem 0;
+  padding: 2rem;
   color: #000814;
   font-weight: 900;
   text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -146,6 +146,14 @@ footer p {
 @media (max-width: 768px) {
   .container-fora {
     padding: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container-fora .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 2fr));
+    gap: 1rem;
   }
 }
 
