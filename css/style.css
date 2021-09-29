@@ -351,3 +351,10 @@ select {
 .op {
   text-align: center;
 }
+
+@media (max-width: 765px) {
+  .section,
+  .section-center {
+    padding: 18rem 0;
+  }
+}
